@@ -184,3 +184,4 @@ while boucle:
     continuer = input("Voulez-vous rejouer ? (O/N): ")
     if continuer not in ('O', 'o', 'Y', 'y') and continuer in ('N', 'n', ''):
         boucle = False
+        exit()
